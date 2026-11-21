@@ -15,6 +15,12 @@
       "headers": [
         { "key": "Content-Type", "value": "application/wasm" }
       ]
+    },
+    {
+      "source": "/(.*)\\.pck",
+      "headers": [
+        { "key": "Content-Type", "value": "application/octet-stream" }
+      ]
     }
   ]
 }
